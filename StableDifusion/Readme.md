@@ -1,1 +1,1 @@
-- I use ReActor (require insightface prebuilt wheel)
+- [I use ReActor (require insightface prebuilt wheel)](https://github.com/Gourieff/sd-webui-reactor?tab=readme-ov-file#viii-for-windows-users-if-you-still-cannot-build-insightface-for-some-reasons-or-just-dont-want-to-install-visual-studio-or-vs-c-build-tools---do-the-following)
