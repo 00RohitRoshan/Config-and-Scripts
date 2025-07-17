@@ -19,18 +19,30 @@
           "template": "<parentBackground>\ue0b0</> \uf292 ",
           "type": "root"
         },
+        // {
+        //   "background": "#FF9248",
+        //   "foreground": "#2d3436",
+        //   "powerline_symbol": "\ue0b0",
+        //   "properties": {
+        //     "folder_icon": " \uf07b ",
+        //     "home_icon": "\ue617",
+        //     "style": "folder"
+        //   },
+        //   "style": "powerline",
+        //   "template": " \uf07b\uea9c {{ .Path }} ",
+        //   "type": "path"
+        // },
         {
-          "background": "#FF9248",
-          "foreground": "#2d3436",
-          "powerline_symbol": "\ue0b0",
-          "properties": {
+        "foreground": "#e3e3e3",
+        "powerline_symbol": "\ue0b0",
+        "properties": {
             "folder_icon": " \uf07b ",
             "home_icon": "\ue617",
             "style": "folder"
-          },
-          "style": "powerline",
-          "template": " \uf07b\uea9c {{ .Path }} ",
-          "type": "path"
+        },
+        "style": "plain",
+        "template": " \uf07b\uea9c {{ .FullPath }} ",
+        "type": "path"
         },
         {
           "background": "#FFFB38",
